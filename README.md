@@ -11,11 +11,9 @@ An interactive web application for experimenting with AI text generation, specif
 - **Frequency Penalty**: Reduce repetition of specific words (-2.0 to 2.0)
 
 ### Model Selection
-Choose from different OpenAI models:
-- GPT-4 Turbo
+Choose from two OpenAI models:
 - GPT-4
 - GPT-3.5 Turbo
-- GPT-3.5 Turbo 16K
 
 ### Prompt Management
 - Pre-configured system and user prompts for product descriptions
@@ -31,7 +29,7 @@ Choose from different OpenAI models:
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Aabhi2002/interactive-prompt-playground.git
 cd interactive-prompt-playground
 ```
 
@@ -42,7 +40,7 @@ npm install
 
 3. Create a `.env` file in the root directory and add your OpenAI API key:
 ```
-VITE_OPENAI_API_KEY=your_api_key_here
+REACT_APP_OPENAI_API_KEY=your_api_key_here
 ```
 
 4. Start the development server:
@@ -59,3 +57,15 @@ npm run dev
 3. Review and modify the system and user prompts if needed
 4. Click "Generate" to start the text generation
 5. Watch the results appear progressively in the output area
+
+## Contributing
+
+Feel free to contribute to this project by:
+1. Forking the repository
+2. Creating a new branch
+3. Making your changes
+4. Submitting a pull request
+
+## License
+
+This project is open source and available under the MIT License.
